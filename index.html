@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <h1>Length Fit Calculator</h1>
+    <form id="lengthForm">
+        <label for="gap">Gap Available (in millimeters):</label>
+        <input type="number" id="gap" name="gap" required>
+        <br><br>
+        <label for="lengthType">Length Type:</label>
+        <select id="lengthType" name="lengthType" required>
+            <option value="25">Cut every 25mm</option>
+            <option value="21">Cut every 21mm</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Calculate Best Length">
+    </form>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>
